@@ -1,5 +1,6 @@
 {
   "name": "lab-react-ironbeers",
+  "homepage": "https://figura01.github.ioo/app-ironbeers-hook/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
