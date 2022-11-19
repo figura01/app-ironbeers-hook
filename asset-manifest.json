@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/app-ironbeers-hook/static/css/main.f3feb9a5.chunk.css",
-    "main.js": "/app-ironbeers-hook/static/js/main.209c7dfa.chunk.js",
-    "main.js.map": "/app-ironbeers-hook/static/js/main.209c7dfa.chunk.js.map",
+    "main.js": "/app-ironbeers-hook/static/js/main.edccd2d2.chunk.js",
+    "main.js.map": "/app-ironbeers-hook/static/js/main.edccd2d2.chunk.js.map",
     "runtime-main.js": "/app-ironbeers-hook/static/js/runtime-main.d21d90e1.js",
     "runtime-main.js.map": "/app-ironbeers-hook/static/js/runtime-main.d21d90e1.js.map",
-    "static/js/2.401b8a37.chunk.js": "/app-ironbeers-hook/static/js/2.401b8a37.chunk.js",
-    "static/js/2.401b8a37.chunk.js.map": "/app-ironbeers-hook/static/js/2.401b8a37.chunk.js.map",
+    "static/js/2.37940466.chunk.js": "/app-ironbeers-hook/static/js/2.37940466.chunk.js",
+    "static/js/2.37940466.chunk.js.map": "/app-ironbeers-hook/static/js/2.37940466.chunk.js.map",
     "index.html": "/app-ironbeers-hook/index.html",
     "static/css/main.f3feb9a5.chunk.css.map": "/app-ironbeers-hook/static/css/main.f3feb9a5.chunk.css.map",
-    "static/js/2.401b8a37.chunk.js.LICENSE.txt": "/app-ironbeers-hook/static/js/2.401b8a37.chunk.js.LICENSE.txt",
+    "static/js/2.37940466.chunk.js.LICENSE.txt": "/app-ironbeers-hook/static/js/2.37940466.chunk.js.LICENSE.txt",
     "static/media/beers.8594ca39.png": "/app-ironbeers-hook/static/media/beers.8594ca39.png",
     "static/media/logo.61bef32f.svg": "/app-ironbeers-hook/static/media/logo.61bef32f.svg",
     "static/media/new-beer.afe490fa.png": "/app-ironbeers-hook/static/media/new-beer.afe490fa.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d21d90e1.js",
-    "static/js/2.401b8a37.chunk.js",
+    "static/js/2.37940466.chunk.js",
     "static/css/main.f3feb9a5.chunk.css",
-    "static/js/main.209c7dfa.chunk.js"
+    "static/js/main.edccd2d2.chunk.js"
   ]
 }
