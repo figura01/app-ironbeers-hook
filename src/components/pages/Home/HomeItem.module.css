@@ -1,0 +1,22 @@
+.home-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.home-item .content {
+  padding: 0.7rem 1rem;
+}
+
+.home-item a {
+  display: flex;
+  width: 100%;
+  color:gray;
+  font-size: 1.7rem;
+
+}
+
+.home-item img {
+  width: 100%;
+  height: auto;
+}

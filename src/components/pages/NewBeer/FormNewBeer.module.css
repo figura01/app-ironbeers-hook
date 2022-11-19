@@ -1,0 +1,17 @@
+.form_new-beer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.form_new-beer button {
+  background-color: rgb(28,150, 202);
+  color: white;
+  border-radius: 2rem;
+  border:0;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+

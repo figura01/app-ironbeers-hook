@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.input label {
+  padding-left: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3f3f3f;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(28,150, 202);
+  padding: .5rem 1rem;
+  font: inherit;
+  border-radius: 2rem;
+}
+
+.input textarea {
+  width: 100%;
+  min-height: 8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(28,150, 202);
+  padding: .5rem 1rem;
+  font: inherit;
+  border-radius: 2rem;
+}
+
+.input.invalid input {
+  border-color: red;
+  background: #fbdada;
+}

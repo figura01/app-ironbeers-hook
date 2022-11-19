@@ -1,0 +1,22 @@
+
+
+.beer-item__link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #212121
+}
+
+.beer-item__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.beer-item__content h3 {
+  margin:0;
+}
+
+.beer-item img {
+  width: auto;
+  max-height: 5rem;
+}

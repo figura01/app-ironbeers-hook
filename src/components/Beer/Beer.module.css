@@ -1,0 +1,24 @@
+.beer {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  max-height: 10rem;
+  object-fit: contain;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.tagline {
+
+}
+.description {
+
+}
+
+.contributed {
+
+}

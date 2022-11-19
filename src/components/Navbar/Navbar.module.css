@@ -1,0 +1,148 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  align-items: center;
+  background-color: rgb(28,150, 202);
+  z-index: 100;
+}
+
+.navbar .brand {
+  display: flex;
+  width: 100%;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.brand__logo {
+  width: 4rem;
+  height: auto;
+  padding: .5rem 1rem;
+}
+
+.brand__link {
+  display: flex;
+}
+
+.brand__text {
+  color:white;
+  margin:0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  justify-items: flex-end;
+  color: white;
+}
+
+.burger-menu {
+  display: none;
+  width: 1rem;
+  height: 1rem;;
+}
+
+.menu-mobile {
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color:white;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.open-menu {
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color:white;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  animation: openmenu 300ms ease-out;
+}
+
+
+.close-menu {
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0vw;
+  height: 0vh;
+  color:white;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 100%;
+  animation: closemenu 300ms ease-out;
+}
+
+@keyframes openmenu {
+  from {
+    width:0;
+    height:0;
+    border-radius: 100%;
+    opacity: 0;
+    top: 50%;
+    left:50%;
+    color: transparent;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes closemenu {
+  from {
+    width:100vw;
+    height:100vh;
+    border-radius: 0;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    color: transparent;
+  }
+  to {
+    width:0;
+    height:0;
+    border-radius: 100%;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .menu {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    z-index: 1202;
+  }
+
+  .burger-menu svg{
+    color: #ccc;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
